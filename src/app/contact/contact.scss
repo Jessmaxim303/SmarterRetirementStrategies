@@ -1,0 +1,441 @@
+
+.contact_main_content {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-image: url('../assets/co_mt.jpg');
+    margin-bottom: -20px;
+}
+
+.welcome-form-input {
+    border: 2px solid #ffffff;
+    margin: 0 0 12px 0;
+    border-radius: 8px;
+    color: #808080;
+    padding: 14px 20px;
+}
+
+.welcome-form-button {
+    background: #FFD60A;
+    border-radius: 8px;
+    color: #15294C;
+    font-weight: 500;
+    font-size: 16px;
+    border: 2px solid #FFD60A;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_main_subcontainer {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact_contact_splitcontainer {
+    width: 58%;
+    height: 500px;
+    background-color: #15294C;
+		display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.contact_form_splitcontainer{
+    width: 40%;
+    height: 500px;
+    background-color: #15294C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.contact_form_innercontainer {
+		width: 88%;
+}
+
+.contact_form_innercontainer h3 {
+    font-size: 1.35rem;
+    max-width: 190px;
+}
+
+.contact-form-container {
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form-container h4 {
+	margin-bottom: 10px;
+}
+
+.contact_form_item {
+    background: #6A7993;
+    margin: 10px 0px;  
+		padding: 15px;
+    border-radius: 8px;
+  }
+
+.contact_form_item h5 {
+    font-size: 1.05rem;
+		font-weight: 600;
+}
+
+.contact_form_item p {
+  font-size: .9rem;
+  font-weight: 300;
+	max-width: 225px;
+  color: #ffffff;
+}
+
+.pp_hero_container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pp_hero_container h1 {
+    font-size: 1.8rem;
+}
+
+.pp_hero_container h3 {
+    font-size: 1.5rem;
+} 
+
+.pp_hero_container h5 {
+    font-size: 1.15rem;
+} 
+
+.pp_hero_container p {
+    font-size: 1rem;
+} 
+
+
+@media only screen and (max-width: 1015px) {
+
+	.contact_form_item p {
+		font-size: .8rem;
+	}
+
+}
+
+@media only screen and (max-width: 1230px) {
+
+	.contact_form_item p {
+		/* font-size: .8rem; */
+	}
+
+}
+
+
+@media only screen and (max-width: 965px) {
+
+.contact_main_subcontainer {
+	flex-direction: column;
+	width: 90%;
+  align-items: center;
+}
+
+.contact_contact_splitcontainer {
+	width: 100%;
+	height: 375px;
+	margin-bottom: -5px;
+}
+
+.contact_form_splitcontainer {
+	width: 100%;
+	padding-top: 0px;
+	height: 375px;
+}
+
+}
+
+/* webinar video section**** */
+
+.offering_main_container {
+    width: 100%;
+    font-family: 'Knockout', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.offering_hero_container {
+    background-image: url("https://www.tuckeradvisors.com/wp-content/uploads/2026/04/hiker_bg.webp");
+    width: 100%;
+    height: 550px;
+   background-size: cover;
+   background-position: center;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;
+    align-items: flex-end;
+		border-bottom: 10px solid #292466;
+}
+
+.offering_video_container {
+   width: 100%;
+   /* height: 550px; */
+   /* border: 1px solid blue; */
+	  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+		/* padding: 0 0 40px 0 */
+}
+
+.offering-title {
+   /* width: 65%; */
+    font-size: 2rem;
+    margin: 25px auto;
+    text-align: center;
+		color: #292466;
+		font-weight: bolder;
+}
+
+.offering-title-sp {
+	color: #ba1626;
+	font-style: italic;
+}
+
+.offering_hero_parent {
+	display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+    align-items: center;
+		width: 50%;
+    height: 100%;
+}
+
+
+.offering_hero_img {
+    width: 50%;
+    height: 90%;
+		/* border: 1px solid yellow; */
+}
+
+.hero-1 {
+   background-image: url("https://www.tuckeradvisors.com/wp-content/uploads/2026/04/title-txt.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75%;
+}
+
+.hero-2 {
+   background-image: url("https://www.tuckeradvisors.com/wp-content/uploads/2026/04/kl-art.webp");
+	 background-size: contain;
+   background-position: center bottom;
+   background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.h3-mobile-text {
+  display: none !important;
+}
+
+.offering_video-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.video_sub_container {
+	/* border: 1px solid red; */
+	width: 50%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 15px 0;
+}
+
+.video_sub_container h5 {
+	margin: 0px;
+} 
+
+.video_container {
+	width: 500px;
+  height: 300px;
+}
+
+.video_container img {
+	border: 3px solid #292466;
+}
+
+.video-parent_container {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	justify-content: center;
+	margin-bottom: 30px;
+	/* padding-top: 50px; */
+  margin: 0 auto;
+}
+
+.v-c {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+
+.v-c h5 {
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin-top: 8px;
+}
+
+.video-container {
+    position: relative;
+    width: 560px;
+    height: 395px;
+    cursor: pointer;
+		
+  }
+
+  .poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+		border: 3px solid #292466;
+  }
+
+
+  .iframe-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+  }
+
+  .hero-2-container {
+    width: 50%;
+    height: 90%;
+  }
+
+  .h5-mobile-text {
+    display: none;
+    width: 100%;
+    color: #292466;
+    /* height: 100px; */
+    font-size: 1.35rem;
+    width: 330px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+/* video on-demand section  */
+
+.video_body_container {
+  width: 100%;
+  height: 800px;
+  /* border: 1px solid red; */
+}
+
+
+/* end video section  */
+
+@media (min-width: 300px) and (max-width: 1175px) {
+
+	.video-parent_container {
+		flex-direction: column;
+		align-items: center;
+		min-width: revert;
+		margin-bottom: 0px;
+	}
+
+	.gated_title-subcontainer h5 {
+		margin: 5px 0;
+	}
+
+}
+
+@media (min-width: 300px) and (max-width: 1005px) {
+
+	.offering-title {
+		font-size: 1.5rem;
+	}
+
+}
+
+@media (min-width: 300px) and (max-width: 850px) {
+
+  .offering_hero_container {
+    background-image: url("https://www.tuckeradvisors.com/wp-content/uploads/2026/04/hiker_bg.webp");
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: center;
+    align-items: flex-end;
+  }
+
+	.offering_hero_parent {
+		display: none;
+	}
+
+  .h5-mobile-text {
+    display: block;
+
+  }
+
+.h3-mobile-text {
+  font-size: 1.75rem;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+	.hero-2 {
+		width: 100%;
+    height: 88%;
+	}
+
+  .hero-2-container {
+    width: 100%;
+  }
+
+} /* END */
+
+@media (min-width: 300px) and (max-width: 705px) {
+
+    .offering-title {
+        font-size: 1.25rem;
+    }
+
+		.video-container {
+    width: 400px;
+    height: 217px;  
+  }
+
+}
+
+@media (min-width: 300px) and (max-width: 580px) {
+
+    .offering-title {
+        font-size: .8rem;
+    }
+
+		.video-container {
+    width: 350px;
+    height: 200px;  
+  }
+
+}
