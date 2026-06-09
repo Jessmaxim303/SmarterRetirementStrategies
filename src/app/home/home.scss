@@ -15,50 +15,11 @@ input {
   border: none;
 }
 
-.srs-logo {
-    width: 285px;
-    padding-top: 21px;
-    margin-left: 20px;
-}
-
-.srs-mobile-logo {
-  display: none;
-}
-
-.nav-menu-full {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
-}
-
-.menu li {
-  padding-left: 7px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.nav-menu-link {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 20px;
-}
-
-.nav_rightside-menucontainer {
-  width: 185px;
-  display: flex;
-  justify-content: space-between;
-}
-
 .welcome-main-section {
   color: #ffffff;
   width: 100%;
   display: flex;
   flex-direction: row;
-
 }
 
 .welcome-main-left {
@@ -93,7 +54,7 @@ input {
     align-items: flex-end;
     background-position: center;
     flex-direction: column;
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
