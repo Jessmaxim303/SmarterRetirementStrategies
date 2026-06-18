@@ -182,6 +182,23 @@ input {
   align-items: center;
 }
 
+.darren-p-img  {
+  background-image: url("../assets/Darren-profile.jpg");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.keypeople-sub-container {
+  border: 1px solid blue;
+  width: 50%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .keypeople-mobile-top {
   width: 63%;
   display: flex;
@@ -206,10 +223,18 @@ input {
 
 .keypeople-sub-textcontainer {
   width: 90%;
+  border: 1px solid red;
+}
+
+.keypeople-sub-textcontainer h5 {
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .keypeople-sub-textcontainer p {
   font-size: 18px;
+  margin-top: 7px;
+  line-height: 1.2;
 }
 
 .kp_sub_title {
@@ -302,7 +327,7 @@ input {
   height: 1.5px;             
   background-color: #607cbe;
   width: 90%;
-  margin: 25px auto;
+  margin: 0px auto 25px auto;
 }
 
 .product_main_container {
@@ -1490,12 +1515,6 @@ input {
 
 .keypeople-main-mid {
   width: 50%;
-}
-
-.keypeople-right-text {
-  width: 90%;
-  height: 30%;
-  margin-bottom: 25px;
 }
 
 .product_item_container {
