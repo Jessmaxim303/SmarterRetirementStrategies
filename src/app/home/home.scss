@@ -180,6 +180,8 @@ input {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  border-bottom: 5px solid #15294C;
+  margin-bottom: 30px;
 }
 
 .darren-p-img  {
@@ -191,12 +193,12 @@ input {
 }
 
 .keypeople-sub-container {
-  border: 1px solid blue;
   width: 50%;
   height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #e7e9ed;
 }
 
 .keypeople-mobile-top {
@@ -223,7 +225,7 @@ input {
 
 .keypeople-sub-textcontainer {
   width: 90%;
-  border: 1px solid red;
+
 }
 
 .keypeople-sub-textcontainer h5 {
@@ -327,7 +329,7 @@ input {
   height: 1.5px;             
   background-color: #607cbe;
   width: 90%;
-  margin: 0px auto 25px auto;
+  margin: 25px auto;
 }
 
 .product_main_container {
