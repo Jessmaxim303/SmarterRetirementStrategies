@@ -186,10 +186,12 @@ input {
 
 .darren-p-img  {
   background-image: url("../assets/Darren-profile.jpg");
-  width: 100%;
-  height: 450px;
+  width: 85%;
+  height: 400px;
   background-size: cover;
   background-position: bottom center;
+  border: 3px solid #15294C;
+  border-radius: 8px;
 }
 
 .keypeople-sub-container {
