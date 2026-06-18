@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
   templateUrl: './webinar-landing.html',
   styleUrl: './webinar-landing.scss',
 })
-export class WebinarLanding {}
+
+export class StepsRetireHappy02 {}
